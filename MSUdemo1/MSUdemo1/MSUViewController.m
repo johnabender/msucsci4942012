@@ -24,9 +24,8 @@
 -(IBAction) blueGreenButtonPressed
 {
    // turn all blue views green
-   SEL ector = @selector(moveDown:);
-   SEL ector2 = @selector(fireShot:withStrength:);
-   NSNumber *downMove = [NSNumber numberWithFloat:50.];
+   SEL ector = @selector(moveInCircle);
+   NSNumber *downMove = [NSNumber numberWithFloat:-200.];
    for( UIView *view in msuViewArray ) {
 //      if( [view class] == [MSUBlueView class] )
 //      if( [view isKindOfClass:[MSUBlueView class]] )

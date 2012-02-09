@@ -10,8 +10,10 @@
 
 @interface MSUCyanView : MSUBlueView {
    UIBezierPath *path;
+   UIColor *drawColor;
 }
 
 -(void) moveDown:(NSNumber*)amount;
+-(void) moveInCircle;
 
 @end
