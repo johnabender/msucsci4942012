@@ -15,6 +15,33 @@
    self.backgroundColor = [UIColor cyanColor];
    path = [UIBezierPath bezierPathWithOvalInRect:self.bounds];
    drawColor = [UIColor blueColor];
+
+   /* drawing by hand
+   path = [[UIBezierPath alloc] init];
+   path.lineWidth = 10.;
+   
+   CGPoint pt = CGPointMake( 0., 0. );
+   [path moveToPoint:pt];
+   
+   pt.x += 50.;
+   pt.y += 100.;
+   [path addLineToPoint:pt];
+   
+   pt.x += 50.;
+   pt.y -= 100.;
+   [path addLineToPoint:pt];
+   
+   pt.x += 50.;
+   [path moveToPoint:pt];
+   
+   pt.x += 50.;
+   pt.y += 100.;
+   [path addLineToPoint:pt];
+   
+   pt.x += 50.;
+   pt.y -= 100.;
+   [path addLineToPoint:pt];
+    */
 }
 
 -(void) moveDown:(NSNumber*)amount
@@ -26,6 +53,8 @@
    [UIView animateWithDuration:duration delay:0.
                        options:UIViewAnimationCurveLinear
                     animations:^{
+//   self.frame.origin.y += [amount floatValue];
+// don't we wish it was this easy!
       CGRect frame = self.frame;
       frame.origin.y += [amount floatValue];
       self.frame = frame;
@@ -36,7 +65,6 @@
       }
    }];
 
-//   self.frame.origin.y += [amount floatValue];
 }
 
 
@@ -69,9 +97,9 @@
 
 -(void) moveInCircle
 {
-   CGFloat radius = 50.; // points
-   CGFloat speed = 100.; // degrees/second
-   CGFloat refreshRate = 1./60.; // seconds
+   CGFloat static const radius = 50.; // points
+   CGFloat static const speed = 100.; // degrees/second
+   CGFloat static const refreshRate = 1./60.; // seconds
    CGPoint center = CGPointMake( self.frame.origin.x,
                                  self.frame.origin.y - radius );
    NSMutableDictionary *initialConditions = [NSMutableDictionary dictionaryWithObjectsAndKeys:
