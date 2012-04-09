@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C391DF44152D1A75002AEBFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C391DF43152D1A75002AEBFB /* UIKit.framework */; };
+		C391DF46152D1A75002AEBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C391DF45152D1A75002AEBFB /* Foundation.framework */; };
+		C391DF48152D1A75002AEBFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C391DF47152D1A75002AEBFB /* CoreGraphics.framework */; };
+		C391DF4E152D1A75002AEBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C391DF4C152D1A75002AEBFB /* InfoPlist.strings */; };
+		C391DF50152D1A75002AEBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C391DF4F152D1A75002AEBFB /* main.m */; };
+		C391DF54152D1A75002AEBFB /* MSUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C391DF53152D1A75002AEBFB /* MSUAppDelegate.m */; };
+		C391DF57152D1A75002AEBFB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C391DF55152D1A75002AEBFB /* MainStoryboard.storyboard */; };
+		C391DF62152D1A91002AEBFB /* MSUBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C391DF61152D1A91002AEBFB /* MSUBluetoothManager.m */; };
+		C391DF64152D1B24002AEBFB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C391DF63152D1B24002AEBFB /* GameKit.framework */; };
+		C391DF6B152D2452002AEBFB /* MSUVTableiewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C391DF6A152D2452002AEBFB /* MSUVTableiewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C391DF3F152D1A75002AEBFB /* chatclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C391DF43152D1A75002AEBFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C391DF45152D1A75002AEBFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C391DF47152D1A75002AEBFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C391DF4B152D1A75002AEBFB /* chatclient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatclient-Info.plist"; sourceTree = "<group>"; };
+		C391DF4D152D1A75002AEBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C391DF4F152D1A75002AEBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C391DF51152D1A75002AEBFB /* chatclient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatclient-Prefix.pch"; sourceTree = "<group>"; };
+		C391DF52152D1A75002AEBFB /* MSUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSUAppDelegate.h; sourceTree = "<group>"; };
+		C391DF53152D1A75002AEBFB /* MSUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSUAppDelegate.m; sourceTree = "<group>"; };
+		C391DF56152D1A75002AEBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C391DF60152D1A91002AEBFB /* MSUBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUBluetoothManager.h; sourceTree = "<group>"; };
+		C391DF61152D1A91002AEBFB /* MSUBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUBluetoothManager.m; sourceTree = "<group>"; };
+		C391DF63152D1B24002AEBFB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C391DF69152D2452002AEBFB /* MSUVTableiewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSUVTableiewController.h; sourceTree = "<group>"; };
+		C391DF6A152D2452002AEBFB /* MSUVTableiewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSUVTableiewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C391DF3C152D1A75002AEBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C391DF64152D1B24002AEBFB /* GameKit.framework in Frameworks */,
+				C391DF44152D1A75002AEBFB /* UIKit.framework in Frameworks */,
+				C391DF46152D1A75002AEBFB /* Foundation.framework in Frameworks */,
+				C391DF48152D1A75002AEBFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C391DF34152D1A75002AEBFB = {
+			isa = PBXGroup;
+			children = (
+				C391DF49152D1A75002AEBFB /* chatclient */,
+				C391DF42152D1A75002AEBFB /* Frameworks */,
+				C391DF40152D1A75002AEBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C391DF40152D1A75002AEBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C391DF3F152D1A75002AEBFB /* chatclient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C391DF42152D1A75002AEBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C391DF63152D1B24002AEBFB /* GameKit.framework */,
+				C391DF43152D1A75002AEBFB /* UIKit.framework */,
+				C391DF45152D1A75002AEBFB /* Foundation.framework */,
+				C391DF47152D1A75002AEBFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C391DF49152D1A75002AEBFB /* chatclient */ = {
+			isa = PBXGroup;
+			children = (
+				C391DF52152D1A75002AEBFB /* MSUAppDelegate.h */,
+				C391DF53152D1A75002AEBFB /* MSUAppDelegate.m */,
+				C391DF55152D1A75002AEBFB /* MainStoryboard.storyboard */,
+				C391DF69152D2452002AEBFB /* MSUVTableiewController.h */,
+				C391DF6A152D2452002AEBFB /* MSUVTableiewController.m */,
+				C391DF60152D1A91002AEBFB /* MSUBluetoothManager.h */,
+				C391DF61152D1A91002AEBFB /* MSUBluetoothManager.m */,
+				C391DF4A152D1A75002AEBFB /* Supporting Files */,
+			);
+			path = chatclient;
+			sourceTree = "<group>";
+		};
+		C391DF4A152D1A75002AEBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C391DF4B152D1A75002AEBFB /* chatclient-Info.plist */,
+				C391DF4C152D1A75002AEBFB /* InfoPlist.strings */,
+				C391DF4F152D1A75002AEBFB /* main.m */,
+				C391DF51152D1A75002AEBFB /* chatclient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C391DF3E152D1A75002AEBFB /* chatclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C391DF5D152D1A75002AEBFB /* Build configuration list for PBXNativeTarget "chatclient" */;
+			buildPhases = (
+				C391DF3B152D1A75002AEBFB /* Sources */,
+				C391DF3C152D1A75002AEBFB /* Frameworks */,
+				C391DF3D152D1A75002AEBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatclient;
+			productName = chatclient;
+			productReference = C391DF3F152D1A75002AEBFB /* chatclient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C391DF36152D1A75002AEBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSU;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C391DF39152D1A75002AEBFB /* Build configuration list for PBXProject "chatclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C391DF34152D1A75002AEBFB;
+			productRefGroup = C391DF40152D1A75002AEBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C391DF3E152D1A75002AEBFB /* chatclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C391DF3D152D1A75002AEBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C391DF4E152D1A75002AEBFB /* InfoPlist.strings in Resources */,
+				C391DF57152D1A75002AEBFB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C391DF3B152D1A75002AEBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C391DF50152D1A75002AEBFB /* main.m in Sources */,
+				C391DF54152D1A75002AEBFB /* MSUAppDelegate.m in Sources */,
+				C391DF62152D1A91002AEBFB /* MSUBluetoothManager.m in Sources */,
+				C391DF6B152D2452002AEBFB /* MSUVTableiewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C391DF4C152D1A75002AEBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C391DF4D152D1A75002AEBFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C391DF55152D1A75002AEBFB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C391DF56152D1A75002AEBFB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C391DF5B152D1A75002AEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C391DF5C152D1A75002AEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C391DF5E152D1A75002AEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatclient/chatclient-Prefix.pch";
+				INFOPLIST_FILE = "chatclient/chatclient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C391DF5F152D1A75002AEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatclient/chatclient-Prefix.pch";
+				INFOPLIST_FILE = "chatclient/chatclient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C391DF39152D1A75002AEBFB /* Build configuration list for PBXProject "chatclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C391DF5B152D1A75002AEBFB /* Debug */,
+				C391DF5C152D1A75002AEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C391DF5D152D1A75002AEBFB /* Build configuration list for PBXNativeTarget "chatclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C391DF5E152D1A75002AEBFB /* Debug */,
+				C391DF5F152D1A75002AEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C391DF36152D1A75002AEBFB /* Project object */;
+}
